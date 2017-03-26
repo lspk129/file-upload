@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  </head>
+  <body>
+
+    <div class="jumbotron text-center">
+      <h1>File Metadata Microservice</h1><br>
+        <p class='lead'>
+          <strong>Upload file and get file size in bytes as JSON response.</strong>
+    </div>
+
+    <div class="container">
+
+      <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="userFile"><br>
+        <input type="submit" value="Upload File" name="submit" style="margin-top: 20px">
+      </form>
+
+    </div><!-- /.container -->
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"</script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+  </body>
+</html>
